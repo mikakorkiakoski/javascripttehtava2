@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="image1.jpeg" alt="Image 1" class="clickable-image">
+            <div class="caption">Oamk Logo</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Image 2" class="clickable-image">
+            <div class="caption">City</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Image 3" class="clickable-image">
+            <div class="caption">Mitä koodari tekee?</div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+      </div>
+      
+    <script src="gallery.js"></script>
+</body>
+
+</html>
